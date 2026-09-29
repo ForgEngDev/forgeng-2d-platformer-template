@@ -1,0 +1,10 @@
+import type { ActionBinding, ActionControlSchemeDefinition, ActionMapDefinition, InputActionsConfiguration } from './InputActionsContract';
+export { snapshotActionInteraction, snapshotActionProcessor } from './InputActionsBehaviorValidation';
+export { InputActionsError, type InputActionsErrorCode } from './InputActionsValidationSupport';
+export declare function assertActionNamespacedId(value: unknown, path: string): asserts value is string;
+export declare function assertActionLocalId(value: unknown, path: string): asserts value is string;
+export declare function assertActionControlPath(value: unknown, path?: string): asserts value is string;
+export declare function snapshotActionBinding(value: ActionBinding, path?: string): ActionBinding;
+export declare function snapshotActionMap(value: ActionMapDefinition, path?: string): ActionMapDefinition;
+export declare function snapshotActionControlScheme(value: ActionControlSchemeDefinition, path?: string): ActionControlSchemeDefinition;
+export declare function validateInputActionsConfiguration(value: InputActionsConfiguration): InputActionsConfiguration;

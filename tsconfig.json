@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "paths": {
+      "forgeng/presets/2d": ["./src/vendor/forgeng/presets-2d.d.ts"],
+      "forgeng/2d": ["./src/vendor/forgeng/2d-authoring.d.ts"],
+      "forgeng/contracts/actions": ["./src/vendor/forgeng/contracts-actions.d.ts"],
+      "@forgeng/ui-dom": ["./src/vendor/forgeng/ui-dom.d.ts"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "forgeng-2d-platformer-template",
+  "version": "1.0.0",
+  "description": "TypeScript/WebGPU 2D platformer starter for ForgEng (ForgeNG 3.4.2)",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/ForgEngDev/forgeng-2d-platformer-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForgEngDev/forgeng-2d-platformer-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ForgEngDev/forgeng-2d-platformer-template/issues"
+  },
+  "keywords": [
+    "forgeng",
+    "forgeng-3",
+    "typescript",
+    "webgpu",
+    "vite",
+    "2d",
+    "platformer",
+    "game-engine",
+    "game-template",
+    "browser-game",
+    "wgsl",
+    "ecs"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  }
+}
