@@ -1,5 +1,7 @@
 # ForgEng 2D Platformer Template
 
+**Live demo:** [play.forgeng.dev/forgeng-2d-platformer-template/current/](https://play.forgeng.dev/forgeng-2d-platformer-template/current/)
+
 **TypeScript starter template for browser games** built with **[ForgEng](https://forgeng.dev)** — a **WebGPU-first**, modular game engine that runs directly in modern browsers (no native runtime install).
 
 This repository is the **2D platformer** sibling of [`forgeng-2d-top-down-template`](https://github.com/ForgEngDev/forgeng-2d-top-down-template), [`forgeng-2d-endless-flyer-template`](https://github.com/ForgEngDev/forgeng-2d-endless-flyer-template), and [`forgeng-3d-template`](https://github.com/ForgEngDev/forgeng-3d-template). Use it to bootstrap client-side platform games with Vite + TypeScript, then grow into the full ForgeNG 3.4.2 stack documented at [forgeng.dev](https://forgeng.dev).
